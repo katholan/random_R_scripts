@@ -5,7 +5,7 @@
 """
 This script will randomize a specified number of blocks.
 To use: 
-1. Update the seed to the date (or another random number).
+1. Update the seed to the date for every new experiment. Each unique seed will output the same random blocks every time, in the same order, so it is very important to update the seed for every new experiment! Using the date will ensure no duplicates are used.
 2. Update treatment names to desired
 3. Update the number of each treatment needed.  For example, if using 4 plants for treatment one, set n1 to 4.
 4. Update the variables in "treatments" to generate a vector with the right number of each treatment.
@@ -16,7 +16,7 @@ The script should output the desired number of randomized blocks as matrices.  A
 
 
 
-library(picante)
+#library(picante)
 set.seed(5162018)
 
 #treatment names and number needed for each treatment
