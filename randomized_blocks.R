@@ -41,6 +41,6 @@ nrow <- 6
 ncol <- 8
 
 for (i in 1:nblocks){
-  View(matrix(sample(treatments), nrow=nrow, ncol=ncol))
+  print(matrix(sample(treatments), nrow=nrow, ncol=ncol))
 }
 
