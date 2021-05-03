@@ -14,9 +14,6 @@ To use:
 The script should output the desired number of randomized blocks as matrices.  Additional treatments can be added as needed.
 """
 
-
-
-#library(picante)
 set.seed(5162018)
 
 #treatment names and number needed for each treatment
